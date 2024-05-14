@@ -203,7 +203,7 @@ function App() {
 
   return (
     <article className="space-y-4 bg-white shadow-md mx-auto p-8 md:p-[3.75rem] rounded-lg rounded-br-[25%] w-[95%] max-w-[52.5rem]">
-      <form className="flex flex-col justify-between items-center gap-4 mb-4 w-full font-bold">
+      <form className="flex flex-col justify-between items-center gap-4 w-full font-bold">
         <div className="flex justify-center items-start gap-4 mr-auto w-full md:w-5/6">
           <div className="relative flex flex-col gap-1 w-full" key="day">
             <label
@@ -231,7 +231,7 @@ function App() {
                   : date.valid === "empty"
                   ? "border-secondary focus:ring-1 focus:ring-secondary"
                   : "border-neutral-200 focus:ring-2 focus:ring-blue-600"
-              } focus:border-none border w-full text-3xl md:text-5xl uppercase focus:outline-none  px-3 rounded-lg font-extrabold text-center`}
+              } focus:border-none border w-full text-3xl  uppercase focus:outline-none  px-3 py-3 rounded-lg font-extrabold text-center`}
             />
             {date.day.err && (
               <p className="w-full font-light text-[11px] text-secondary italic">
@@ -268,7 +268,7 @@ function App() {
                   : date.valid === "empty"
                   ? "border-secondary focus:ring-1 focus:ring-secondary"
                   : "border-neutral-200 focus:ring-2 focus:ring-blue-600"
-              } focus:border-none border w-full text-3xl md:text-5xl uppercase focus:outline-none  px-3 rounded-lg font-extrabold text-center`}
+              } focus:border-none border w-full text-3xl  uppercase focus:outline-none  px-3 py-3 rounded-lg font-extrabold text-center`}
             />
             {date.month.err && (
               <p className="w-full font-light text-[11px] text-secondary italic">
@@ -305,7 +305,7 @@ function App() {
                   : date.valid === "empty"
                   ? "border-secondary focus:ring-1 focus:ring-secondary"
                   : "border-neutral-200 focus:ring-2 focus:ring-blue-600"
-              } focus:border-none border w-full text-3xl md:text-5xl uppercase focus:outline-none  px-3 rounded-lg font-extrabold text-center`}
+              } focus:border-none border w-full text-3xl  uppercase focus:outline-none  px-3 py-3 rounded-lg font-extrabold text-center`}
             />
             {date.year.err && (
               <p className="w-full font-light text-[11px] text-secondary italic">
@@ -320,7 +320,7 @@ function App() {
           </div>
         </div>
         <button
-          className="place-items-center grid bg-primary hover:bg-neutral-400 shadow-sm hover:shadow-lg md:ml-auto p-8 rounded-full duration-150 cursor-pointer"
+          className="place-items-center grid bg-primary hover:bg-neutral-400 shadow-sm hover:shadow-lg md:ml-auto p-6 rounded-full duration-150 cursor-pointer"
           onClick={(e) => {
             e.preventDefault();
             handleSubmit();
