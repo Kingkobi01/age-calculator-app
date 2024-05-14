@@ -202,7 +202,7 @@ function App() {
   };
 
   return (
-    <article className="space-y-4 bg-white shadow-md mx-auto p-8 md:p-[3.75rem] rounded-lg rounded-br-[3rem] w-[95%] max-w-[52.5rem]">
+    <article className="space-y-4 bg-white shadow-md mx-auto p-8 md:p-[3.75rem] rounded-lg rounded-br-[25%] w-[95%] max-w-[52.5rem]">
       <form className="flex flex-col justify-between items-center gap-4 mb-4 w-full font-bold">
         <div className="flex justify-center items-start gap-4 mr-auto w-full md:w-5/6">
           <div className="relative flex flex-col gap-1 w-full" key="day">
