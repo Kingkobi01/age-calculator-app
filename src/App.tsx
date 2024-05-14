@@ -320,7 +320,7 @@ function App() {
           </div>
         </div>
         <button
-          className="place-items-center grid bg-primary hover:bg-neutral-400 md:ml-auto p-8 rounded-full duration-150 cursor-pointer"
+          className="place-items-center grid bg-primary hover:bg-neutral-400 shadow-sm hover:shadow-lg md:ml-auto p-8 rounded-full duration-150 cursor-pointer"
           onClick={(e) => {
             e.preventDefault();
             handleSubmit();
